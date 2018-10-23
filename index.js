@@ -20,7 +20,7 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(name) {
-  const newA = [...drivers];
-  newA.unshift(name);
+  const newA = [...drivers, name];
+  
   return newA; 
 }
